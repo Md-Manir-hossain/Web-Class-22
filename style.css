@@ -6,11 +6,181 @@
 }
 
 .header-section {
-    background-image: url(https://placehold.co/1920x1080);
+    background-image: url(Image/organic\ banner.jpg);
     background-size: cover;
     background-position: center;
     height: 100vh;
     display: flex;
+    padding-top: 480px;
     align-items: center;
     justify-content: center;
 }
+
+.hero-content {
+    text-align: center;
+}
+
+.hero-content h1 {
+    font-size: 4rem;
+    margin-bottom: 10px;
+    color: green;
+}
+
+.header-section .hero-content p {
+    color: rgb(227, 249, 229);
+}
+
+.hero-content p {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: green;
+}
+
+.custom-btn {
+    background-color: #d7f304;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 50px;
+    font-size: 1.6rem;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: black;
+    transition: background-color 0.5s ease;
+}
+
+.custom-btn:hover {
+    background-color: green;
+    color: white;
+}
+
+.Features-section {
+    padding: 20px 0px;
+}
+
+.Features-section h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+
+.Features-Card {
+    padding: 10px;
+    background-color: rgb(207, 200, 200);
+    border-radius: 15px;
+    box-shadow: -10px 10px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin-bottom: 15px;
+    height: 250px;
+    transition: transform 0.5s ease;
+}
+
+.Features-Card:hover {
+    transform: translate(-10px);
+}
+
+.Features-Card img {
+    width: 140px;
+    margin-bottom: 5px;
+    margin-top: 10px;
+}
+
+.Features-Card h5 {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.Features-Card p {
+    color: rgb(39, 6, 248);
+}
+
+
+/* ========= Checkout ========= */
+
+.custom-chout h2 {
+    font-size: 3rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.custom-level {
+    text-align: center;
+    font-style: italic;
+    text-decoration-color: #f85606;
+}
+
+.section-checkout {
+    padding: 60px 0px;
+}
+
+.checkout-form {
+    max-width: 500px;
+    margin: auto;
+    padding: 30px;
+    background-color: rgb(15, 166, 65);
+    box-shadow: 0 30px 30px rgba(3, 192, 97, 0.94);
+    border-radius: 8px;
+}
+
+.custom-btnn {
+    background-color: rgb(244, 144, 15);
+    border: none;
+    padding: 12px 20px;
+    border-radius: 50px;
+    font-size: 1rem;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: white;
+    margin-left: 150px;
+    margin-top: 30px;
+    transition: background-color 0.5s ease;
+}
+
+.custom-btnn:hover {
+    background-color: #4de59c;
+    color: black;
+}
+.footer {
+    background-color: rgb(15, 127, 49);
+    padding: 60px 0px;
+    color: white;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-icon a {
+    color: rgb(235, 241, 225);
+    font-size: 1.4rem;
+    padding: 3px;
+    transition: color 0.5s ease;
+}
+
+.social-icon a:hover {
+    color: #0d26e5;
+}
+
+.checkout-form .custom-level {
+    padding: 10px;
+    color: green;
+}
+
+
+
+
+
+
+/* ======== Responsive ======== */
+
+/* @media screen and (max-width: 469px;) {
+    .custom-btn {
+        font-size: 5rem;
+    }
+
+    .hero-content h1 {
+        font-size: 3rem;
+    }
+} */
